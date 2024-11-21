@@ -1,0 +1,44 @@
+{
+  "id": "basic-demo",
+  "fields": {
+    "company": {
+      "type": "q-input",
+      "props": {
+        "label": "company",
+        "outlined": true
+      }
+    },
+    "firstname": {
+      "type": "q-input",
+      "props": {
+        "label": "firstname",
+        "outlined": true
+      }
+    },
+    "lastname": {
+      "type": "q-input",
+      "props": {
+        "label": "lastname",
+        "outlined": true
+      }
+    },
+    "games": {
+      "type": "q-select",
+      "props": {
+        "label": "Games",
+        "options": [
+          { "value": "the-last-of-us", "label": "The Last of Us II" },
+          { "value": "death-stranding", "label": "Death Stranding" },
+          { "value": "nier-automata", "label": "Nier Automata" }
+        ],
+        "outlined": true
+      }
+    },
+    "checkIfAwesome": {
+      "type": "q-checkbox",
+      "props": {
+        "label": "Remember Me"
+      }
+    }
+  }
+}
