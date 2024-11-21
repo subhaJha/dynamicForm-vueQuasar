@@ -1,7 +1,7 @@
 ### A Quasar Project 
 ## Dynamic Form using JSON any one can create Form 
 
-# Structure of the JSON should be like 
+### Structure of the JSON should be like 
 ```bash
  {
   "fields": {
@@ -123,8 +123,29 @@
   }
 }
 ```
+# Final Output Example
+```bash
+{
+  "personalInfo": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "male"
+  },
+  "preferences": {
+    "notifications": true,
+    "theme": "dark"
+  },
+  "contactInfo": {
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890"
+  },
+  "survey": {
+    "satisfaction": 5,
+    "suggestions": "Great job! Keep up the good work."
+  }
+}
 
-
+```
 
 # Quasar App (dynamic-formdemo)
 
