@@ -1,3 +1,130 @@
+# A Quasar Project 
+## Dynamic Form using JSON any one can create Form 
+
+## Structure of the JSON should be like 
+### {
+ ### "fields": {
+  ###  "personalInfo": {
+  ###  "type": "q-accordion",
+   ###   "props": {
+  ###    "label": "Personal Information"
+  ###    },
+  ### "children": {
+  ###      "firstName": {
+  ###     "type": "q-input",
+  ###        "props": {
+  ###          "label": "First Name",
+  ###          "outlined": true,
+  ###          "placeholder": "Enter your first name"
+  ###        }
+  ###      },
+  ###      "lastName": {
+  ###      "type": "q-input",
+  ###        "props": {
+  ###       "label": "Last Name",
+  ###       "outlined": true,
+  ###       "placeholder": "Enter your last name"
+  ###     }
+  ###   },
+  ###   "gender": {
+  ###     "type": "q-select",
+  ###     "props": {
+  ###       "label": "Gender",
+  ###       "options": [
+  ###         { "label": "Male", "value": "male" },
+  ###         { "label": "Female", "value": "female" },
+  ###         { "label": "Other", "value": "other" }
+  ###       ],
+  ###       "outlined": true,
+  ###       "emit-value": true,
+  ###       "map-options": true
+  ###     }
+  ###      }
+ ###     }
+ ###   },
+###    "preferences": {
+###      "type": "q-accordion",
+###      "props": {
+###        "label": "Preferences"
+###      },
+###      "children": {
+###        "notifications": {
+###          "type": "q-checkbox",
+ ###         "props": {
+###            "label": "Enable Notifications"
+  ###        }
+ ###       },
+ ###       "theme": {
+  ###        "type": "q-select",
+ ###         "props": {
+ ###           "label": "Theme",
+ ###           "options": [
+ ###             { "label": "Light", "value": "light" },
+ ###             { "label": "Dark", "value": "dark" }
+  ###          ],
+ ###           "outlined": true
+ ###         }
+ ###       }
+###      }
+###    },
+###    "contactInfo": {
+###      "type": "q-accordion",
+###      "props": {
+###        "label": "Contact Information"
+###      },
+###      "children": {
+###        "email": {
+###          "type": "q-input",
+###          "props": {
+###            "label": "Email",
+###            "type": "email",
+###            "outlined": true,
+###            "placeholder": "Enter your email"
+###          }
+###        },
+###        "phone": {
+###          "type": "q-input",
+###          "props": {
+###            "label": "Phone Number",
+###            "type": "tel",
+###            "outlined": true,
+###            "placeholder": "Enter your phone number"
+###          }
+###        }
+###      }
+###    },
+###    "survey": {
+ ###     "type": "q-accordion",
+###      "props": {
+ ###       "label": "Survey"
+######      },
+  ###    "children": {
+ ###       "satisfaction": {
+###          "type": "q-rating",
+###          "props": {
+###            "label": "Rate Your Satisfaction",
+###            "max": 5,
+###            "size": "lg"
+###          }
+###        },
+######        "suggestions": {
+###          "type": "q-input",
+###          "props": {
+###            "label": "Suggestions",
+###            "type": "textarea",
+###            "outlined": true,
+###            "rows": 5,
+###            "placeholder": "Enter your suggestions here"
+###          }
+###        }
+###      }
+###    }
+###  }
+### }
+
+
+
+
 # Quasar App (dynamic-formdemo)
 
 A Quasar Project
